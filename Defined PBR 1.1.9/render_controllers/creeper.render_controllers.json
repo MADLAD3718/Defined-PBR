@@ -1,0 +1,24 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.creeper": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "overlay_color": {
+          "r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+      },
+      "color": {
+        "r": "1.0",
+        "g": "1.0",
+        "b": "1.0",
+        "a": "1.0"
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

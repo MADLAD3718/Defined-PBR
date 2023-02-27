@@ -1,0 +1,73 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+   "format_version": [1,1,0],
+   "chiseled_nether_bricks" : {
+      "sound" : "nether_brick",
+      "textures" : "chiseled_nether_bricks"
+   },
+   "cracked_nether_bricks" : {
+      "sound" : "nether_brick",
+      "textures" : "cracked_nether_bricks"
+   },
+   "bee_nest" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "bee_nest_bottom",
+         "east" : "bee_nest_side",
+         "north" : "bee_nest_side",
+         "south" : "bee_nest_front",
+         "up" : "bee_nest_top",
+         "west" : "bee_nest_side"
+      }
+   },
+   "beehive" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "beehive_top",
+         "east" : "beehive_side",
+         "north" : "beehive_side",
+         "south" : "beehive_front",
+         "up" : "beehive_top",
+         "west" : "beehive_side"
+      }
+   },
+   "lit_redstone_ore" : {
+      "sound" : "stone",
+      "textures" : "redstone_ore_lit"
+   },
+   "lit_deepslate_redstone_ore" : {
+      "sound" : "deepslate",
+      "textures" : "deepslate_redstone_ore_lit"
+   },
+   "slime" : {
+      "sound" : "slime",
+      "textures" : "slime_block",
+      "carried_textures" : "slime_block_carried"
+   },
+   "tinted_glass" : {
+      "sound" : "glass",
+      "textures" : "tinted_glass",
+      "carried_textures" : "tinted_glass_carried"
+   },
+   "dried_kelp_block" : {
+      "carried_textures" : {
+         "down" : "dried_kelp_block_bottom",
+         "east" : "dried_kelp_block_side_b",
+         "north" : "dried_kelp_block_side_a",
+         "south" : "dried_kelp_block_side_b",
+         "up" : "dried_kelp_block_top",
+         "west" : "dried_kelp_block_side_a"
+      },
+      "sound" : "grass",
+      "textures" : {
+         "down" : "dried_kelp_block_bottom",
+         "east" : "dried_kelp_block_side_b",
+         "north" : "dried_kelp_block_side_a",
+         "south" : "dried_kelp_block_side_b",
+         "up" : "dried_kelp_block_top",
+         "west" : "dried_kelp_block_side_a"
+      },
+      "blockshape": "block"
+   }
+}
+//Edited by MADLAD3718 for Defined PBR

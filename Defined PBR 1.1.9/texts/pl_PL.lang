@@ -1,0 +1,12 @@
+tile.element.unknown.name=Lustro
+tile.element.h.name=Czerwone światło
+tile.element.he.name=Pomarańczowe światło
+tile.element.li.name=Żółte światło
+tile.element.be.name=Zielone światło
+tile.element.b.name=Niebieskie światło
+tile.element.c.name=Fioletowe światło
+tile.element.n.name=Białe światło
+tile.element.o.name=Rdzeń reaktora Nether
+tile.element.f.name=Świecący Obsydian
+map.position=%s, %s, %s
+menu.play=Bawić się

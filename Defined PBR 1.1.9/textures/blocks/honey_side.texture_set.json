@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "honey_side",
+		"metalness_emissive_roughness": "slime_mer",
+		"heightmap": "honey_side_heightmap"
+	}
+}

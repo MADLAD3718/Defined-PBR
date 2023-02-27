@@ -1,0 +1,52 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "dpbr:cinematic_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.99,
+        "fog_end": 1.0,
+        "fog_color": "#ABD2FF",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.9,
+        "fog_end": 1.0,
+        "fog_color": "#00475B",
+        "render_distance_type": "render"
+      },
+      "weather": {
+        "fog_start": 0.99,
+        "fog_end": 1.0,
+        "fog_color": "#666666",
+        "render_distance_type": "render"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 1.0,
+          "uniform": true
+        },
+        "water": {
+          "max_density": 1.0,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [ 0.00175, 0.00175, 0.0019 ],
+          "absorption": [ 0.008, 0.008, 0.005 ]
+        },
+        "cloud": {
+          "scattering": [0.100, 0.100, 0.100],
+          "absorption": [0.003, 0.003, 0.003]
+        }
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

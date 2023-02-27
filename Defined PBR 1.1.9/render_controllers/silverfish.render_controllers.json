@@ -1,0 +1,34 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.silverfish": {
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" },
+        { "bodyLayer_*": "Material.body_layer" }
+      ],
+      "part_visibility": [
+        { "*": "0" },
+        { "bodypart_0": "1" },
+        { "bodypart_1": "1" },
+        { "bodypart_2": "1" },
+        { "bodypart_3": "1" },
+        { "bodypart_4": "1" },
+        { "bodypart_5": "1" },
+        { "bodypart_6": "1" },
+        { "bodylayer_0": "1" },
+        { "bodylayer_1": "1" },
+        { "bodylayer_2": "1" }
+      ],
+      "textures": [ "Texture.default" ],
+      "color": {
+        "r": "1.0",
+        "g": "1.0",
+        "b": "1.0",
+        "a": "1.0"
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

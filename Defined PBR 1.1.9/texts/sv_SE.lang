@@ -1,0 +1,12 @@
+tile.element.unknown.name=Spegel
+tile.element.h.name=Rött ljus
+tile.element.he.name=Orange ljus
+tile.element.li.name=Gult ljus
+tile.element.be.name=Grönt ljus
+tile.element.b.name=Blåljus
+tile.element.c.name=Lila ljus
+tile.element.n.name=Vitt ljus
+tile.element.o.name=Nedre reaktorkärna
+tile.element.f.name=Glödande Obsidian
+map.position=%s, %s, %s
+menu.play=Spela

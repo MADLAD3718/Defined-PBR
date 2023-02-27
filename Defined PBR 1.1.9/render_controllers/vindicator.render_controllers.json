@@ -1,0 +1,24 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.vindicator": {
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        { "rightArm": "query.is_angry || query.is_celebrating" },
+        { "leftArm": "query.is_angry || query.is_celebrating" },
+        { "rightItem": "query.is_angry" },
+        { "arms": "!(query.is_angry || query.is_celebrating)" }
+      ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "color": {
+        "r": "1.0",
+        "g": "1.0",
+        "b": "1.0",
+        "a": "1.0"
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

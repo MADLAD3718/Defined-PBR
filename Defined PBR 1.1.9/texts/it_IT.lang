@@ -1,0 +1,12 @@
+tile.element.unknown.name=Specchio
+tile.element.h.name=Luce rossa
+tile.element.he.name=Luce arancione
+tile.element.li.name=Luce gialla
+tile.element.be.name=Luce verde
+tile.element.b.name=Luce blu
+tile.element.c.name=Luce viola
+tile.element.n.name=Luce bianca
+tile.element.o.name=Nucleo del reattore del Nether
+tile.element.f.name=ossidiana luminosa
+map.position=%s, %s, %s
+menu.play=Giocare a

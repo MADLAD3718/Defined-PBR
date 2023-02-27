@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "trip_wire",
+		"metalness_emissive_roughness": [ 0, 0, 180 ],
+		"heightmap": "trip_wire_heightmap"
+	}
+}

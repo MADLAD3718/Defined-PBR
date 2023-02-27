@@ -1,0 +1,12 @@
+﻿tile.element.unknown.name=Mirror
+tile.element.h.name=Red Light
+tile.element.he.name=Orange Light
+tile.element.li.name=Yellow Light
+tile.element.be.name=Green Light
+tile.element.b.name=Blue Light
+tile.element.c.name=Purple Light
+tile.element.n.name=White Light
+tile.element.o.name=Nether Reactor Core
+tile.element.f.name=Glowing Obsidian
+map.position=%s, %s, %s
+menu.play=Play

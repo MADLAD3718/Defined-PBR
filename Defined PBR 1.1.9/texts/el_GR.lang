@@ -1,0 +1,12 @@
+tile.element.unknown.name=Καθρέφτης
+tile.element.h.name=Κόκκινο φως
+tile.element.he.name=Πορτοκαλί φως
+tile.element.li.name=Κίτρινο φως
+tile.element.be.name=Πράσινο φως
+tile.element.b.name=Μπλε φως
+tile.element.c.name=Μωβ Φως
+tile.element.n.name=Λευκό φως
+tile.element.o.name=Ο Πυρήνας του Κάτω Αντιδραστήρα
+tile.element.f.name=Λαμπερός Οψιδιανός
+map.position=%s, %s, %s
+menu.play=Παίζω

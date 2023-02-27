@@ -1,0 +1,12 @@
+tile.element.unknown.name=Peili
+tile.element.h.name=Punainen valo
+tile.element.he.name=Oranssi valo
+tile.element.li.name=Keltainen valo
+tile.element.be.name=Vihreä valo
+tile.element.b.name=Sininen valo
+tile.element.c.name=Violetti valo
+tile.element.n.name=Valkoinen valo
+tile.element.o.name=Nether Reactor Core
+tile.element.f.name=Hehkuva obsidiaani
+map.position=%s, %s, %s
+menu.play=pelata

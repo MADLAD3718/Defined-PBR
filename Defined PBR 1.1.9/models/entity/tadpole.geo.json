@@ -1,0 +1,39 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tadpole",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 1,
+				"visible_bounds_height": 0.8,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [-1.5, 1, -2.5], "size": [3, 2, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "root",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [0, 1, -0.5], "size": [0, 2, 7], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
+//Edited by MADLAD3718 for Defined PBR

@@ -1,0 +1,12 @@
+tile.element.unknown.name=Zrcadlo
+tile.element.h.name=Červené světlo
+tile.element.he.name=Oranžové světlo
+tile.element.li.name=Žluté světlo
+tile.element.be.name=Zelené světlo
+tile.element.b.name=Modré světlo
+tile.element.c.name=Fialové světlo
+tile.element.n.name=Bílé světlo
+tile.element.o.name=Nether Reactor Core
+tile.element.f.name=Zářící obsidián
+map.position=%s, %s, %s
+menu.play=Hrát si

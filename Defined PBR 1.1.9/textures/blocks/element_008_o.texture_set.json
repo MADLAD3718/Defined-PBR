@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "nether_reactor_core",
+		"metalness_emissive_roughness": "nether_reactor_core_mer",
+		"heightmap": "nether_reactor_core_heightmap"
+	}
+}

@@ -1,0 +1,12 @@
+tile.element.unknown.name=Spejl
+tile.element.h.name=Rødt lys
+tile.element.he.name=Orange lys
+tile.element.li.name=Gult Lys
+tile.element.be.name=Grønt lys
+tile.element.b.name=Blåt lys
+tile.element.c.name=Lilla lys
+tile.element.n.name=Hvidt lys
+tile.element.o.name=Nether Reactor Core
+tile.element.f.name=Glødende Obsidian
+map.position=%s, %s, %s
+menu.play=Spil

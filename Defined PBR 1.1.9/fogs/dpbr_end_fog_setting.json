@@ -1,0 +1,46 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "dpbr:end"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.99,
+        "fog_end": 1.0,
+        "fog_color": "#000000",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.7,
+        "fog_end": 0.8,
+        "fog_color": "#7A46B3",
+        "render_distance_type": "render"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "water": {
+          "max_density": 1.0,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.020, 0.020, 0.020],
+          "absorption": [0, 0, 0]
+        },
+        "water": {
+          "scattering": [0.0078, 0.0048, 0.0122],
+          "absorption": [0.200, 0.0395, 0.0415]
+        },
+        "cloud": {
+          "scattering": [0.100, 0.100, 0.100],
+          "absorption": [0.003, 0.003, 0.003]
+        }
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

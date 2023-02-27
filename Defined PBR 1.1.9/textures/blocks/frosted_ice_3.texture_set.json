@@ -1,0 +1,8 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "frosted_ice_3",
+        "metalness_emissive_roughness": [63,0,11],
+        "heightmap": "frosted_ice_3_heightmap"
+    }
+}

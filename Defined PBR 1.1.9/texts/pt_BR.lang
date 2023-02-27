@@ -1,0 +1,12 @@
+tile.element.unknown.name=Espelho
+tile.element.h.name=Luz vermelha
+tile.element.he.name=Luz laranja
+tile.element.li.name=Luz amarela
+tile.element.be.name=Luz verde
+tile.element.b.name=Luz azul
+tile.element.c.name=Luz Roxa
+tile.element.n.name=Luz branca
+tile.element.o.name=Núcleo do Reator Nether
+tile.element.f.name=Obsidiana Brilhante
+map.position=%s, %s, %s
+menu.play=Toque

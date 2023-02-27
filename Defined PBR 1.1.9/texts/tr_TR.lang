@@ -1,0 +1,12 @@
+tile.element.unknown.name=Ayna
+tile.element.h.name=Kırmızı ışık
+tile.element.he.name=Turuncu Işık
+tile.element.li.name=Sarı ışık
+tile.element.be.name=Yeşil ışık
+tile.element.b.name=Mavi ışık
+tile.element.c.name=Mor Işık
+tile.element.n.name=Beyaz ışık
+tile.element.o.name=Cehennem reaktör çekirdeği
+tile.element.f.name=parlayan obsidyen
+map.position=%s, %s, %s
+menu.play=Oyna

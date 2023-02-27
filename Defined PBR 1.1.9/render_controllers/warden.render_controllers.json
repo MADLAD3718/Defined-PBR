@@ -1,0 +1,72 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.warden": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "controller.render.warden_spots_1": {
+      "geometry": "Geometry.overlay",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.spots_1" ],
+      "ignore_lighting": true,
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "controller.render.warden_spots_2": {
+      "geometry": "Geometry.overlay",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.spots_2" ],
+      "ignore_lighting": true,
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "controller.render.warden_tendrils": {
+      "geometry": "Geometry.overlay",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.tendrils" ],
+      "ignore_lighting": true,
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "part_visibility": [
+        { "*": "variable.tendrils_alpha"}
+      ]
+    },
+    "controller.render.warden_heart": {
+      "geometry": "Geometry.overlay",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.heart" ],
+      "ignore_lighting": true,
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "part_visibility": [
+        { "*": "query.hurt_time > 0 ? 1 : (variable.heart_alpha > 0 ? 1 : 0)"}
+      ]
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

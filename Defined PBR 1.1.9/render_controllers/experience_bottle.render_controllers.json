@@ -1,0 +1,19 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.experience_bottle": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default", "Texture.enchanted" ],
+      "filter_lighting": true,
+      "color": {
+        "r": "1.0",
+        "g": "1.0",
+        "b": "1.0",
+        "a": "1.0"
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

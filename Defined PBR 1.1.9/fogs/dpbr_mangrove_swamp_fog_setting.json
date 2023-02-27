@@ -1,0 +1,56 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "dpbr:mangrove_swamp"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.99999,
+        "fog_end": 1.0,
+        "fog_color": "#ABD2FF",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.7,
+        "fog_end": 0.8,
+        "fog_color": "#00475B",
+        "render_distance_type": "render"
+      },
+      "weather": {
+        "fog_start": 0.99,
+        "fog_end": 1.0,
+        "fog_color": "#666666",
+        "render_distance_type": "render"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.0009,
+          "uniform": true
+        },
+        "water": {
+          "max_density": 1.0,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": "#0a0906",
+          "absorption": [0.0, 0.0, 0.0]
+        },
+        "water": {
+          "scattering": [0.0024, 0.0028, 0.0034],
+          "absorption": [0.088, 0.085, 0.095]
+        },
+        "cloud": {
+          "scattering": [0.100, 0.100, 0.100],
+          "absorption": [0.003, 0.003, 0.003]
+        }
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR
