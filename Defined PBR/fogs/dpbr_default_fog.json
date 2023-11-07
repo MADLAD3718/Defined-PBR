@@ -1,0 +1,69 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "dpbr:default"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.99999,
+        "fog_end": 1.0,
+        "fog_color": "#ABD2FF",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 60.0,
+        "fog_color": "#44AFF5",
+        "render_distance_type": "fixed",
+        "transition_fog": {
+          "init_fog": {
+            "fog_start": 0.0,
+            "fog_end": 0.01,
+            "fog_color": "#44AFF5",
+            "render_distance_type": "fixed"
+          },
+          "min_percent": 0.25,
+          "mid_seconds": 5,
+          "mid_percent": 0.6,
+          "max_seconds": 30
+        }
+      },
+      "weather": {
+        "fog_start": 0.99,
+        "fog_end": 1.0,
+        "fog_color": "#666666",
+        "render_distance_type": "render"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.001,
+          // "max_density": 0.0,
+          "uniform": true
+        },
+        "water": {
+          "max_density": 1.0,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": "#0a0906",
+          "absorption": [0.0, 0.0, 0.0]
+        },
+        "water": {
+          "scattering": [0.0078, 0.0048, 0.0122],
+          "absorption": [0.200, 0.0395, 0.0415]
+        },
+        "cloud": {
+          "scattering": [0.100, 0.100, 0.100],
+          "absorption": [0.003, 0.003, 0.003]
+        }
+      }
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

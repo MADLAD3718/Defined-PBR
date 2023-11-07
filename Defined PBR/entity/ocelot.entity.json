@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:ocelot",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "ocelot" },
+      "textures": {
+        "black": "textures/entity/cat/blackcat",
+        "red": "textures/entity/cat/red",
+        "siamese": "textures/entity/cat/siamese",
+        "wild": "textures/entity/cat/ocelot"
+      },
+      "geometry": {
+        "default": "geometry.ocelot.v1.8"
+      },
+      "scripts": {
+        "should_update_bones_and_effects_offscreen": true,
+        "animate": [
+          "move",
+          "baby",
+          "look_at_target_controller"
+        ]
+      },
+      "animations": {
+        "sneak": "animation.ocelot.sneak",
+        "walk": "animation.ocelot.walk",
+        "sprint": "animation.ocelot.sprint",
+        "sit": "animation.ocelot.sit",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.ocelot.baby_transform",
+        "move": "controller.animation.ocelot.move",
+        "baby": "controller.animation.ocelot.baby",
+        "look_at_target_controller": "controller.animation.ocelot.look_at_target"
+      },
+      "render_controllers": [ "controller.render.ocelot" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:tadpole",
+			"materials": { "default": "tadpole" },
+			"textures": {
+				"default": "textures/entity/tadpole/tadpole"
+			},
+			"geometry": {
+				"default": "geometry.tadpole"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_tadpole"
+			},
+			"scripts": {
+				"should_update_bones_and_effects_offscreen": true,
+				"animate": ["general"]
+			},
+			"animations": {
+				"swim": "animation.tadpole.swim",
+				"general": "controller.animation.tadpole.general"
+			},
+			"render_controllers": [ "controller.render.tadpole" ]
+		}
+	}
+}
+//Edited by MADLAD3718 for Defined PBR

@@ -1,0 +1,45 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:hoglin",
+      "materials": { "default": "hoglin" },
+      "textures": {
+        "default": "textures/entity/hoglin/hoglin"
+      },
+      "geometry": {
+        "default": "geometry.hoglin"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_hoglin"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos_right_side = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.tcos_left_side = -variable.tcos_right_side;",
+          "variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;"
+        ],
+        "animate": [
+          "look_at_target_controller",
+          "walk_controller",
+          "attack_controller",
+          "hoglin_baby_scaling_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "animations": {
+        "walk": "animation.hoglin.walk",
+        "look_at_target": "animation.hoglin.look_at_target",
+        "attack": "animation.hoglin.attack",
+        "hoglin_baby_scaling": "animation.hoglin.baby_scaling",
+        "look_at_target_controller": "controller.animation.hoglin.look_at_target",
+        "walk_controller": "controller.animation.hoglin.walk",
+        "attack_controller": "controller.animation.hoglin.attack",
+        "hoglin_baby_scaling_controller": "controller.animation.hoglin.baby_scaling"
+      },
+      "render_controllers": [ "controller.render.hoglin" ]
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

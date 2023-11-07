@@ -1,0 +1,33 @@
+//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:tnt_minecart",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "minecart"
+      },
+      "textures": {
+        "default": "textures/entity/tnt_minecart"
+      },
+      "geometry": {
+        "default": "geometry.tnt_minecart.v1.8"
+      },
+       "scripts": {
+        "pre_animation": [
+          "variable.hurt = query.hurt_time - query.frame_alpha;"
+        ],
+        "animate": [
+          "move"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "animations": {
+        "move": "animation.minecart.move"
+      },
+      "render_controllers": [ "controller.render.minecart" ]
+    }
+  }
+}
+//Edited by MADLAD3718 for Defined PBR

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:bat",
+      "materials": { "default": "bat" },
+      "textures": {
+        "default": "textures/entity/bat"
+      },
+      "geometry": {
+        "default": "geometry.bat"
+      },
+      "scripts": {
+        "scale": "0.35",
+        "should_update_bones_and_effects_offscreen": true,
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "resting": "animation.bat.resting",
+        "flying": "animation.bat.flying",
+        "move": "controller.animation.bat.move"
+      },
+      "render_controllers": [ "controller.render.bat" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 18
+      }
+    }
+  }
+}
