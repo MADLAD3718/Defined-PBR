@@ -3,6 +3,6 @@
 	"minecraft:texture_set": {
 		"color": "respawn_anchor_side0",
 		"metalness_emissive_roughness": "respawn_anchor_side0_mer",
-		"heightmap": "respawn_anchor_side0_heightmap"
+		"heightmap": "respawn_anchor_side_heightmap"
 	}
 }

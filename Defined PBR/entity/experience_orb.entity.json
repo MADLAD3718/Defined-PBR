@@ -1,4 +1,3 @@
-//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
 {
   "format_version": "1.10.0",
   "minecraft:client_entity": {
@@ -17,18 +16,14 @@
         "face_player": "animation.actor.billboard"
       },
       "scripts": {
-        "scale": "0.6",
+        "scale": "0.5",
         "pre_animation": [
-          "variable.u = Math.mod(query.texture_frame_index, 4) * 16.0 / 64.0;",
-          "variable.v = math.round(query.texture_frame_index / 4) * 16.0 / 64.0;"
+          "variable.uv = Math.mod(query.texture_frame_index, 4) * 10 + math.round(query.texture_frame_index / 4);"
         ],
-        "animate": [
-          "face_player"
-        ],
+        "animate": [ "face_player" ],
         "should_update_bones_and_effects_offscreen": true
       },
       "render_controllers": [ "controller.render.experience_orb" ]
     }
   }
 }
-//Edited by MADLAD3718 for Defined PBR

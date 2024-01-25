@@ -1,19 +1,17 @@
 {
     "format_version": 2,
     "header": {
-        "description": "A faithful enhancement of the vanilla textures, designed by §6MADLAD3718§r. Version 1.2.0.",
+        "description": "A faithful enhancement of the vanilla textures, designed by MADLAD3718.\nVersion 1.2.1",
         "name": "Defined PBR - A Vanilla RTX Resource Pack",
         "uuid": "b1285f26-4a78-4d81-82d5-f79a62a66a7b",
-        "version": [1,2,0],
+        "version": [1,2,1],
         "min_engine_version": [1,16,200]
     },
-    "modules": [
-        {
-            "description": "A faithful enhancement of the vanilla textures, designed by §6MADLAD3718§r. Version 1.2.0.",
-            "type": "resources",
-            "uuid": "20c40306-e516-41b8-a312-f835b81a6761",
-            "version": [1,2,0]
-        }
-    ],
+    "modules": [{
+        "description": "A faithful enhancement of the vanilla textures, designed by MADLAD3718.\nVersion 1.2.1",
+        "type": "resources",
+        "uuid": "20c40306-e516-41b8-a312-f835b81a6761",
+        "version": [1,2,1]
+    }],
     "capabilities": ["raytraced","pbr"]
 }

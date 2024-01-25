@@ -1,4 +1,3 @@
-//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
 {
    "resource_pack_name" : "dpbr",
    "texture_data" : {
@@ -58,8 +57,13 @@
       },
       "spawn_egg_sniffer": {
          "textures": "textures/items/egg_sniffer"
+      },
+      "spawn_egg_breeze": {
+         "textures": "textures/items/egg_breeze"
+      },
+      "spawn_egg_armadillo": {
+         "textures": "textures/items/egg_armadillo"
       }
    },
    "texture_name" : "atlas.items"
 }
-//Edited by MADLAD3718 for Defined PBR

@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:armadillo",
+      "materials": {
+        "default": "armadillo"
+      },
+      "geometry": {
+        "default": "geometry.armadillo"
+      },
+      "textures": {
+        "default": "textures/entity/armadillo"
+      },
+      "render_controllers": [
+        "controller.render.armadillo"
+      ],
+      "scripts": {
+        "pre_animation": [
+          "variable.x_head_rotation = math.clamp(query.target_x_rotation, -32.5, 32.5);",
+          "variable.y_head_rotation = math.clamp(query.target_y_rotation, -22.5, 25);",
+          "variable.is_rolled_up = query.property('minecraft:is_rolled_up');",
+          "variable.rolled_up_time = variable.is_rolled_up ? ((variable.last_rolled_up_time ?? 0.0) + query.delta_time) : 0.0;",
+          "variable.last_rolled_up_time = variable.rolled_up_time;",
+          "variable.use_rolled_up_model = variable.rolled_up_time >= 0.2083;",
+          "variable.walking = query.modified_move_speed > 0.01 && !variable.is_rolled_up;",
+          "variable.walk_anim_time_update = query.anim_time + math.max(1.215, math.pow(12, query.modified_move_speed)) * query.delta_time;"
+        ],
+        "animate": [
+          "look_at_target",
+          "walk_controller",
+          "roll_up_controller"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "animations": {
+        "look_at_target": "animation.armadillo.look_at_target",
+        "walk": "animation.armadillo.walk",
+        "walk_controller": "controller.animation.armadillo.walk",
+        "roll_up": "animation.armadillo.roll_up",
+        "rolled_up": "animation.armadillo.rolled_up",
+        "unroll": "animation.armadillo.unroll",
+        "roll_up_controller": "controller.animation.armadillo.roll_up"
+      },
+      "sound_effects": {
+        "roll": "mob.armadillo.roll",
+        "land": "mob.armadillo.land",
+        "unroll": "mob.armadillo.unroll"
+      },
+      "spawn_egg": { "texture": "spawn_egg_armadillo" }
+    }
+  }
+}

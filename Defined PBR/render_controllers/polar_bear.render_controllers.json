@@ -1,5 +1,4 @@
- //By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
- {
+  {
    "format_version": "1.8.0",
    "render_controllers": {
      "controller.render.polarbear": {

@@ -1,85 +1,178 @@
-//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
 {
    "format_version": [1,1,0],
-   "chiseled_nether_bricks" : {
-      "sound" : "nether_brick",
-      "textures" : "chiseled_nether_bricks"
+   "chiseled_nether_bricks": {
+      "sound": "nether_brick",
+      "textures": "chiseled_nether_bricks"
    },
-   "cracked_nether_bricks" : {
-      "sound" : "nether_brick",
-      "textures" : "cracked_nether_bricks"
+   "cracked_nether_bricks": {
+      "sound": "nether_brick",
+      "textures": "cracked_nether_bricks"
    },
-   "bee_nest" : {
-      "sound" : "wood",
-      "textures" : {
-         "down" : "bee_nest_bottom",
-         "east" : "bee_nest_side",
-         "north" : "bee_nest_side",
-         "south" : "bee_nest_front",
-         "up" : "bee_nest_top",
-         "west" : "bee_nest_side"
+   "bee_nest": {
+      "sound": "wood",
+      "textures": {
+         "down": "bee_nest_bottom",
+         "east": "bee_nest_side",
+         "north": "bee_nest_side",
+         "south": "bee_nest_front",
+         "up": "bee_nest_top",
+         "west": "bee_nest_side"
       }
    },
-   "beehive" : {
-      "sound" : "wood",
-      "textures" : {
-         "down" : "beehive_top",
-         "east" : "beehive_side",
-         "north" : "beehive_side",
-         "south" : "beehive_front",
-         "up" : "beehive_top",
-         "west" : "beehive_side"
+   "beehive": {
+      "sound": "wood",
+      "textures": {
+         "down": "beehive_top",
+         "east": "beehive_side",
+         "north": "beehive_side",
+         "south": "beehive_front",
+         "up": "beehive_top",
+         "west": "beehive_side"
       }
    },
-   "lit_redstone_ore" : {
-      "sound" : "stone",
-      "textures" : "redstone_ore_lit"
+   "lit_redstone_ore": {
+      "sound": "stone",
+      "textures": "redstone_ore_lit"
    },
-   "lit_deepslate_redstone_ore" : {
-      "sound" : "deepslate",
-      "textures" : "deepslate_redstone_ore_lit"
+   "lit_deepslate_redstone_ore": {
+      "sound": "deepslate",
+      "textures": "deepslate_redstone_ore_lit"
    },
-   "slime" : {
-      "sound" : "slime",
-      "textures" : "slime_block",
-      "carried_textures" : "slime_block_carried"
+   "slime": {
+      "sound": "slime",
+      "textures": "slime_block",
+      "carried_textures": "slime_block_carried"
    },
-   "tinted_glass" : {
-      "sound" : "glass",
-      "textures" : "tinted_glass",
-      "carried_textures" : "tinted_glass_carried"
-   },
-   "dried_kelp_block" : {
-      "carried_textures" : {
-         "down" : "dried_kelp_block_bottom",
-         "east" : "dried_kelp_block_side_b",
-         "north" : "dried_kelp_block_side_a",
-         "south" : "dried_kelp_block_side_b",
-         "up" : "dried_kelp_block_top",
-         "west" : "dried_kelp_block_side_a"
+   "ochre_froglight" : {
+      "sound" : "froglight",
+      "textures" : {
+         "down" : "ochre_froglight_top",
+         "side" : "ochre_froglight_side",
+         "up" : "ochre_froglight_top"
       },
-      "sound" : "grass",
+      "carried_textures": {
+         "down" : "ochre_froglight_top_carried",
+         "side" : "ochre_froglight_side_carried",
+         "up" : "ochre_froglight_top_carried"
+      }
+   },
+   "pearlescent_froglight" : {
+      "sound" : "froglight",
       "textures" : {
-         "down" : "dried_kelp_block_bottom",
-         "east" : "dried_kelp_block_side_b",
-         "north" : "dried_kelp_block_side_a",
-         "south" : "dried_kelp_block_side_b",
-         "up" : "dried_kelp_block_top",
-         "west" : "dried_kelp_block_side_a"
+         "down" : "pearlescent_froglight_top",
+         "side" : "pearlescent_froglight_side",
+         "up" : "pearlescent_froglight_top"
+      },
+      "carried_textures": {
+         "down" : "pearlescent_froglight_top_carried",
+         "side" : "pearlescent_froglight_side_carried",
+         "up" : "pearlescent_froglight_top_carried"
+      }
+   },
+   "verdant_froglight" : {
+      "sound" : "froglight",
+      "textures" : {
+         "down" : "verdant_froglight_top",
+         "side" : "verdant_froglight_side",
+         "up" : "verdant_froglight_top"
+      },
+      "carried_textures": {
+         "down" : "verdant_froglight_top_carried",
+         "side" : "verdant_froglight_side_carried",
+         "up" : "verdant_froglight_top_carried"
+      }
+   },
+   "glass": {
+      "sound": "glass",
+      "textures": "glass",
+      "carried_textures": "glass_carried"
+   },
+   "glass_pane": {
+      "sound": "glass",
+      "textures": {
+         "down": "glass",
+         "east": "glass_pane_top",
+         "north": "glass",
+         "south": "glass",
+         "up": "glass",
+         "west": "glass"
+      },
+      "carried_textures": {
+         "down": "glass_carried",
+         "east": "glass_pane_top_carried",
+         "north": "glass_carried",
+         "south": "glass_carried",
+         "up": "glass_carried",
+         "west": "glass_carried"
+      }
+   },
+   "stained_glass": {
+      "sound": "glass",
+      "textures": "stained_glass",
+      "carried_textures": "stained_glass_carried"
+   },
+   "stained_glass_pane": {
+      "sound": "glass",
+      "textures": {
+         "down": "stained_glass",
+         "east": "stained_glass_pane_top",
+         "north": "stained_glass",
+         "south": "stained_glass",
+         "up": "stained_glass",
+         "west": "stained_glass"
+      },
+      "carried_textures": {
+         "down": "stained_glass_carried",
+         "east": "stained_glass_pane_top_carried",
+         "north": "stained_glass_carried",
+         "south": "stained_glass_carried",
+         "up": "stained_glass_carried",
+         "west": "stained_glass_carried"
+      }
+   },
+   "tinted_glass": {
+      "sound": "glass",
+      "textures": "tinted_glass",
+      "carried_textures": "tinted_glass_carried"
+   },
+   "dried_kelp_block": {
+      "carried_textures": {
+         "down": "dried_kelp_block_bottom",
+         "east": "dried_kelp_block_side_b",
+         "north": "dried_kelp_block_side_a",
+         "south": "dried_kelp_block_side_b",
+         "up": "dried_kelp_block_top",
+         "west": "dried_kelp_block_side_a"
+      },
+      "sound": "grass",
+      "textures": {
+         "down": "dried_kelp_block_bottom",
+         "east": "dried_kelp_block_side_b",
+         "north": "dried_kelp_block_side_a",
+         "south": "dried_kelp_block_side_b",
+         "up": "dried_kelp_block_top",
+         "west": "dried_kelp_block_side_a"
       },
       "blockshape": "block"
    },
-   "chiseled_bookshelf" : {
-      "sound" : "chiseled_bookshelf",
-      "textures" : {
-         "down" : "chiseled_bookshelf_top",
-         "east" : "chiseled_bookshelf_side",
-         "north" : "chiseled_bookshelf_front",
-         "south" : "chiseled_bookshelf_side",
-         "up" : "chiseled_bookshelf_top",
-         "west" : "chiseled_bookshelf_side"
+   "chiseled_bookshelf": {
+      "sound": "chiseled_bookshelf",
+      "textures": {
+         "down": "chiseled_bookshelf_top",
+         "east": "chiseled_bookshelf_side",
+         "north": "chiseled_bookshelf_front",
+         "south": "chiseled_bookshelf_side",
+         "up": "chiseled_bookshelf_top",
+         "west": "chiseled_bookshelf_side"
+      },
+      "carried_textures": {
+         "down": "chiseled_bookshelf_top",
+         "east": "chiseled_bookshelf_side",
+         "north": "chiseled_bookshelf_side",
+         "south": "chiseled_bookshelf_empty",
+         "up": "chiseled_bookshelf_top",
+         "west": "chiseled_bookshelf_side"
       },
       "blockshape": "block"
    }
 }
-//Edited by MADLAD3718 for Defined PBR

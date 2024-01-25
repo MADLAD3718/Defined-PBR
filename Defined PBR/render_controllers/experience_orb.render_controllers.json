@@ -1,29 +1,22 @@
-//By opening or making any changes this file you confirm that you have read the license outlined in LICENSE.txt on modifying the files found in this resource pack
 {
   "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.experience_orb": {
-        "geometry": "Geometry.default",
-        "materials": [ { "*": "Material.default" } ],
-        "textures": [ "Texture.default" ],
-        "overlay_color": {
-            "r": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
-            "g": "1.0",
-            "b": "(Math.sin(query.life_time * 500.0 + 240.0) + 1.0) * 0.1",
-            "a": "0.5"
-        },
-        "ignore_lighting": true,
-        "uv_anim": {
-            "offset": [ "variable.u", "variable.v" ],
-            "scale": [ 1.0, 1.0 ]
-        },
-        "color": {
-          "r": "1.0",
-          "g": "1.0",
-          "b": "1.0",
-          "a": "1.0"
-        }
+      "geometry": "Geometry.default",
+      "materials": [{ "*": "Material.default" }],
+      "textures": ["Texture.default"],
+      "overlay_color": {
+        "r": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+        "g": "1.0",
+        "b": "(Math.sin(query.life_time * 500.0 + 240.0) + 1.0) * 0.1",
+        "a": "0.5"
+      },
+      "ignore_lighting": true,
+      "part_visibility": [
+        {"*": false},
+        {"00": "v.uv==0"}, {"01": "v.uv==1"}, {"02": "v.uv==2"}, {"03": "v.uv==3"}, {"10": "v.uv==10"}, {"11": "v.uv==11"}, {"12": "v.uv==12"}, {"13": "v.uv==13"}, {"20": "v.uv==20"}, {"21": "v.uv==21"}, {"22": "v.uv==22"}, {"23": "v.uv==23"}, {"30": "v.uv==30"}, {"31": "v.uv==31"}, {"32": "v.uv==32"}, {"33": "v.uv==33"}
+      ],
+      "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
     }
   }
 }
-//Edited by MADLAD3718 for Defined PBR

@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:texture_set": {
 		"color": "small_dripleaf_side",
-		"metalness_emissive_roughness": [86,0,229],
+		"metalness_emissive_roughness": [0,0,156],
 		"heightmap": "small_dripleaf_side_heightmap"
 	}
 }
