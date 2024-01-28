@@ -1,12 +1,1 @@
-tile.element.unknown.name=Espejo
-tile.element.h.name=Luz roja
-tile.element.he.name=Luz naranja
-tile.element.li.name=Luz amarilla
-tile.element.be.name=Luz verde
-tile.element.b.name=Luz azul
-tile.element.c.name=luz morada
-tile.element.n.name=Luz blanca
-tile.element.o.name=Núcleo del reactor inferior
-tile.element.f.name=Obsidiana resplandeciente
 map.position=%s, %s, %s
-menu.play=Tocar

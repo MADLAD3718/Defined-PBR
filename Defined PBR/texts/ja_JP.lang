@@ -1,12 +1,1 @@
-tile.element.unknown.name=鏡
-tile.element.h.name=レッドライト
-tile.element.he.name=オレンジライト
-tile.element.li.name=イエローライト
-tile.element.be.name=緑の光
-tile.element.b.name=青色光
-tile.element.c.name=パープルライト
-tile.element.n.name=ホワイトライト
-tile.element.o.name=ネザー炉心
-tile.element.f.name=輝く黒曜石
 map.position=%s, %s, %s
-menu.play=演奏する

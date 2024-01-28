@@ -1,12 +1,1 @@
-tile.element.unknown.name=Spiegel
-tile.element.h.name=Rotlicht
-tile.element.he.name=Oranges Licht
-tile.element.li.name=Gelbes Licht
-tile.element.be.name=Grünes Licht
-tile.element.b.name=Blaues Licht
-tile.element.c.name=Lila Licht
-tile.element.n.name=Weißes Licht
-tile.element.o.name=Nether Reaktorkern
-tile.element.f.name=Leuchtender Obsidian
 map.position=%s, %s, %s
-menu.play=Spielen

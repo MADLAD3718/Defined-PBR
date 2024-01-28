@@ -1,12 +1,1 @@
-tile.element.unknown.name=Огледало
-tile.element.h.name=Червена светлина
-tile.element.he.name=Оранжева светлина
-tile.element.li.name=Жълта светлина
-tile.element.be.name=Зелена светлина
-tile.element.b.name=Синя светлина
-tile.element.c.name=Пурпурна светлина
-tile.element.n.name=Бяла светлина
-tile.element.o.name=Ядро на реактора Nether
-tile.element.f.name=Светещ обсидиан
 map.position=%s, %s, %s
-menu.play=Играйте

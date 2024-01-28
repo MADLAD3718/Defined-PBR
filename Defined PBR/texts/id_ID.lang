@@ -1,12 +1,1 @@
-tile.element.unknown.name=Cermin
-tile.element.h.name=Lampu merah
-tile.element.he.name=Cahaya Oranye
-tile.element.li.name=Cahaya kuning
-tile.element.be.name=Lampu hijau
-tile.element.b.name=Cahaya biru
-tile.element.c.name=Cahaya Ungu
-tile.element.n.name=Cahaya putih
-tile.element.o.name=Inti Reaktor Nether
-tile.element.f.name=obsidian bercahaya
 map.position=%s, %s, %s
-menu.play=Bermain

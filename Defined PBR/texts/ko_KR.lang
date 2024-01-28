@@ -1,12 +1,1 @@
-tile.element.unknown.name=거울
-tile.element.h.name=빨간불
-tile.element.he.name=오렌지 빛
-tile.element.li.name=황색 신호등
-tile.element.be.name=초록불
-tile.element.b.name=푸른 빛
-tile.element.c.name=보라색 빛
-tile.element.n.name=백색광
-tile.element.o.name=네더 원자로 코어
-tile.element.f.name=빛나는 흑요석
 map.position=%s, %s, %s
-menu.play=놀다

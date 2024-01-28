@@ -1,12 +1,1 @@
-tile.element.unknown.name=Дзеркало
-tile.element.h.name=Червоне світло
-tile.element.he.name=Помаранчеве світло
-tile.element.li.name=Жовте світло
-tile.element.be.name=Зелене світло
-tile.element.b.name=Синє світло
-tile.element.c.name=Фіолетове світло
-tile.element.n.name=Біле світло
-tile.element.o.name=Ядро реактора Nether
-tile.element.f.name=Сяючий обсидіан
 map.position=%s, %s, %s
-menu.play=Грати

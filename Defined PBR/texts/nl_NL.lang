@@ -1,12 +1,1 @@
-tile.element.unknown.name=Spiegel
-tile.element.h.name=Rood licht
-tile.element.he.name=Oranje licht
-tile.element.li.name=Geel licht
-tile.element.be.name=Groen licht
-tile.element.b.name=Blauw licht
-tile.element.c.name=Paars Licht
-tile.element.n.name=Wit Licht
-tile.element.o.name=Nether Reactor Kern
-tile.element.f.name=Gloeiende Obsidiaan
 map.position=%s, %s, %s
-menu.play=Toneelstuk

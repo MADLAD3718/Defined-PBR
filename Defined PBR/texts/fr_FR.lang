@@ -1,12 +1,1 @@
-tile.element.unknown.name=Miroir
-tile.element.h.name=Lumière rouge
-tile.element.he.name=Lumière orange
-tile.element.li.name=Lumière jaune
-tile.element.be.name=Lumière verte
-tile.element.b.name=Lumière bleue
-tile.element.c.name=Lumière violette
-tile.element.n.name=Lumière blanche
-tile.element.o.name=Noyau du réacteur du Nether
-tile.element.f.name=Obsidienne rougeoyante
 map.position=%s, %s, %s
-menu.play=Jouer

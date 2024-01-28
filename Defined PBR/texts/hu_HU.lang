@@ -1,12 +1,1 @@
-tile.element.unknown.name=Tükör
-tile.element.h.name=Piros fény
-tile.element.he.name=Narancssárga fény
-tile.element.li.name=Sárga fény
-tile.element.be.name=Zöld fény
-tile.element.b.name=Kék fény
-tile.element.c.name=Lila fény
-tile.element.n.name=Fehér fény
-tile.element.o.name=Nether Reactor Core
-tile.element.f.name=Izzó Obszidián
 map.position=%s, %s, %s
-menu.play=Játék

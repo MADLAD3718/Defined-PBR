@@ -1,12 +1,1 @@
-tile.element.unknown.name=镜子
-tile.element.h.name=红灯
-tile.element.he.name=橙光
-tile.element.li.name=黄灯
-tile.element.be.name=绿灯
-tile.element.b.name=蓝光
-tile.element.c.name=紫光
-tile.element.n.name=白光
-tile.element.o.name=下界反应堆核心
-tile.element.f.name=发光的黑曜石
 map.position=%s, %s, %s
-menu.play=玩

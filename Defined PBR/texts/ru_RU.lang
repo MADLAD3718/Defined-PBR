@@ -1,12 +1,1 @@
-tile.element.unknown.name=Зеркало
-tile.element.h.name=Красный свет
-tile.element.he.name=Оранжевый свет
-tile.element.li.name=Желтый свет
-tile.element.be.name=Зеленый свет
-tile.element.b.name=Синий свет
-tile.element.c.name=Фиолетовый свет
-tile.element.n.name=Белый свет
-tile.element.o.name=Ядро реактора Нижнего мира
-tile.element.f.name=Светящийся обсидиан
 map.position=%s, %s, %s
-menu.play=Играть в
