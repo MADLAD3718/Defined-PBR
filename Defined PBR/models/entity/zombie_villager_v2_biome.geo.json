@@ -41,6 +41,7 @@
 				"name": "brim",
 				"parent": "head",
 				"pivot": [0, 24, 0],
+				"rotation": [-90, 0, 0],
 				"cubes": [
 					{"origin": [-8, 16, -6], "size": [16, 16, 1], "uv": [30, 47], "inflate": 0.15}
 				]
