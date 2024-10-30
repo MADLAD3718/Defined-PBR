@@ -8,7 +8,7 @@
       "air": {
         "fog_start": 0.99,
         "fog_end": 1.0,
-        "fog_color": "#4d4d4d",
+        "fog_color": "#ff0000",
         "render_distance_type": "render"
       }
     },
@@ -33,7 +33,7 @@
           "absorption": [0.200, 0.0395, 0.0415]
         },
         "cloud": {
-          "scattering": [0.100, 0.100, 0.100],
+          "scattering": [0.950, 0.950, 0.950],
           "absorption": [0.003, 0.003, 0.003]
         }
       }

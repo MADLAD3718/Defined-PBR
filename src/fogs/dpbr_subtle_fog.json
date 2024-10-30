@@ -31,15 +31,15 @@
       },
       "media_coefficients": {
         "air": {
-          "scattering": [ 0.00165, 0.00165, 0.0019 ],
-          "absorption": [ 0.008, 0.008, 0.004 ]
+          "scattering": [0.00165, 0.00165, 0.0019],
+          "absorption": [0.008, 0.008, 0.004]
         },
         "water": {
           "scattering": [0.0078, 0.0048, 0.0122],
           "absorption": [0.400, 0.079, 0.083]
         },
         "cloud": {
-          "scattering": [0.100, 0.100, 0.100],
+          "scattering": [0.950, 0.950, 0.950],
           "absorption": [0.003, 0.003, 0.003]
         }
       }
