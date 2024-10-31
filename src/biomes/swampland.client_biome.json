@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "dpbr:swamp"
+        "fog_identifier": "dpbr:fog_swamp"
       },
       "minecraft:water_appearance": {
         "surface_color": "#4c6559"

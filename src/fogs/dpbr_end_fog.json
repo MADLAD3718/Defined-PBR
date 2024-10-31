@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "dpbr:end"
+      "identifier": "dpbr:fog_end"
     },
     "distance": {
       "air": {

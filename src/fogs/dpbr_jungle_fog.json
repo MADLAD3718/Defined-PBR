@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "dpbr:fog_mangrove_swamp"
+      "identifier": "dpbr:fog_jungle"
     },
     "distance": {
       "air": {
@@ -38,12 +38,12 @@
       },
       "media_coefficients": {
         "air": {
-          "scattering": [0.002, 0.00175, 0.001],
+          "scattering": [0.0015, 0.002, 0.0015],
           "absorption": [0.0, 0.0, 0.0]
         },
         "water": {
-          "scattering": [0.0024, 0.0028, 0.0034],
-          "absorption": [0.088, 0.085, 0.095]
+          "scattering": [0.0078, 0.0048, 0.0122],
+          "absorption": [0.200, 0.0395, 0.0415]
         },
         "cloud": {
           "scattering": [0.950, 0.950, 0.950],
