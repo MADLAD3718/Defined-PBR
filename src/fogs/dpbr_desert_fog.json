@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "dpbr:fog_savanna"
+      "identifier": "dpbr:fog_desert"
     },
     "distance": {
       "air": {
@@ -38,7 +38,7 @@
       },
       "media_coefficients": {
         "air": {
-          "scattering": [0.002, 0.00194, 0.0013],
+          "scattering": [0.002, 0.002, 0.00175],
           "absorption": [0.0, 0.0, 0.0]
         },
         "water": {
