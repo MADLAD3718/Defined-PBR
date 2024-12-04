@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Essa alta distância de renderização pode fazer com que pedaços desapareçam enquanto você atravessa o mundo.

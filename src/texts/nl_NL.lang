@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Deze hoge weergaveafstand kan ervoor zorgen dat brokken verdwijnen terwijl ze de wereld doorkruisen.

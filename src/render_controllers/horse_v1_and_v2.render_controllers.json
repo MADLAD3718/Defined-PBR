@@ -20,15 +20,6 @@
             "Texture.base_gray",
             "Texture.base_darkbrown"
           ],
-          "Array.base1": [
-            "Texture.base_white",
-            "Texture.base_creamy",
-            "Texture.base_chestnut",
-            "Texture.base_brown",
-            "Texture.base_black",
-            "Texture.base_gray",
-            "Texture.base_darkbrown"
-          ],
           "Array.markings": [
             "Texture.markings_none",
             "Texture.markings_white",
@@ -44,14 +35,14 @@
       ],
       "textures": [
         "Array.base[query.variant]",
-        "Array.base1[query.variant]",
-        "Array.markings[query.mark_variant]"
+        "Array.markings[query.mark_variant]",
+        "Texture.armor_none"
       ],
       "color": {
-        "r": "1.0",
-        "g": "1.0",
-        "b": "1.0",
-        "a": "1.0"
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
       }
     },
     "controller.render.horse.v1.and.v2_armor": {
@@ -70,20 +61,6 @@
             "Texture.armor_iron",
             "Texture.armor_gold",
             "Texture.armor_diamond"
-          ],
-          "Array.armor1": [
-            "Texture.armor_none",
-            "Texture.armor_leather",
-            "Texture.armor_iron",
-            "Texture.armor_gold",
-            "Texture.armor_diamond"
-          ],
-          "Array.armor2": [
-            "Texture.armor_none",
-            "Texture.armor_leather",
-            "Texture.armor_iron",
-            "Texture.armor_gold",
-            "Texture.armor_diamond"
           ]
         }
       },
@@ -93,14 +70,14 @@
       ],
       "textures": [
         "Array.armor[variable.armor_texture_slot]",
-        "Array.armor1[variable.armor_texture_slot]",
-        "Array.armor2[variable.armor_texture_slot]"
+        "Texture.armor_none",
+        "Texture.armor_none"
       ],
       "color": {
-        "r": "variable.armor_texture_slot ? query.armor_color_slot(1, 0) : this",
-        "g": "variable.armor_texture_slot ? query.armor_color_slot(1, 1) : this",
-        "b": "variable.armor_texture_slot ? query.armor_color_slot(1, 2) : this",
-        "a": 1.0
+        "r": "variable.armor_texture_slot ? query.armor_color_slot(4, 0) : this",
+        "g": "variable.armor_texture_slot ? query.armor_color_slot(4, 1) : this",
+        "b": "variable.armor_texture_slot ? query.armor_color_slot(4, 2) : this",
+        "a": "variable.armor_texture_slot ? query.armor_color_slot(4, 3) : this"
       }
     }
   }

@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=この長いレンダリング距離により、ワールドを横断する際にチャンクが消える可能性があります。

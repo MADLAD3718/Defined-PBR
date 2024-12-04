@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=이렇게 높은 렌더링 거리로 인해 세계를 횡단하는 동안 청크가 사라질 수 있습니다.

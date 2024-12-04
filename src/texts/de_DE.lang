@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Dieser hohe Renderabstand kann dazu führen, dass beim Durchqueren der Welt Teile verschwinden.

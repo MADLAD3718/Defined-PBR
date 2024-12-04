@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Bu yüksek işleme mesafesi, dünyayı dolaşırken parçaların kaybolmasına neden olabilir.

@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Такое большое расстояние рендеринга может привести к исчезновению фрагментов при перемещении по миру.

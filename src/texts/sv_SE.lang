@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Detta höga renderingsavstånd kan göra att bitar försvinner när de korsar världen.

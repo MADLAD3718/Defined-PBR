@@ -1,1 +1,2 @@
 map.position=%s, %s, %s
+options.raytracing.renderdistance.warning=Questa distanza di rendering elevata può causare la scomparsa di blocchi durante l'attraversamento del mondo.

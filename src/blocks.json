@@ -175,6 +175,18 @@
       },
       "blockshape": "block"
    },
+   "chain" : {
+      "sound" : "chain",
+      "textures" : {
+         "down" : "chain1",
+         "north" : "chain2",
+         "south" : "chain2",
+         "east" : "chain2",
+         "west" : "chain2",
+         "up" : "chain1"
+      },
+      "blockshape": "chain"
+   },
    "white_concrete_powder" : {
       "sound" : "sand",
       "isotropic": true,
@@ -254,5 +266,10 @@
       "sound" : "sand",
       "isotropic": true,
       "textures" : "pink_concrete_powder"
+   },
+   "pale_hanging_moss" : {
+      "sound" : "pale_hanging_moss",
+      "textures" : "pale_hanging_moss",
+      "blockshape": "cross_texture"
    }
 }
