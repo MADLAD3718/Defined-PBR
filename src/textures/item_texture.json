@@ -63,6 +63,12 @@
       },
       "spawn_egg_armadillo": {
          "textures": "textures/items/egg_armadillo"
+      },
+      "spawn_egg_bogged": {
+         "textures": "textures/items/egg_bogged"
+      },
+      "spawn_egg_creaking": {
+         "textures": "textures/items/egg_creaking"
       }
    },
    "texture_name" : "atlas.items"
