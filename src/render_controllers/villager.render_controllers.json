@@ -1,48 +1,90 @@
 {
   "format_version": "1.8.0",
   "render_controllers": {
-    "controller.render.villager": {
+    "controller.render.villager_base": {
       "arrays": {
         "textures": {
-          "Array.skins": [ "Texture.farmer", "Texture.librarian", "Texture.priest", "Texture.smith", "Texture.butcher" ]
+          "array.skins": [
+            "texture.base",
+            "texture.base2",
+            "texture.base3",
+            "texture.base4",
+            "texture.base5",
+            "texture.base6"
+          ]
         }
       },
-      "geometry": "Geometry.default",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.skins[query.variant]" ],
-      "color": {
-        "r": "1.0",
-        "g": "1.0",
-        "b": "1.0",
-        "a": "1.0"
-      }
+      "geometry": "geometry.default",
+      "materials": [{ "*": "material.default" }],
+      "textures": [ "array.skins[query.skin_id]" ]
     },
-    "controller.render.villager.v1.0": {
+    "controller.render.villager_biome": {
       "arrays": {
         "textures": {
-          "Array.skins": [ "Texture.farmer", "Texture.librarian", "Texture.priest", "Texture.smith", "Texture.butcher" ]
+          "array.biomes": [ 
+            "texture.plains",
+            "texture.desert",
+            "texture.jungle",
+            "texture.savanna",
+            "texture.snow",
+            "texture.swamp",
+            "texture.taiga"
+          ]
         }
       },
-      "geometry": "Geometry.default",
+      "rebuild_animation_matrices": true,
+      "geometry": "geometry.biome",
       "part_visibility": [
-        {
-          "*": false,
-          "head": true,
-          "nose": true,
-          "body": true,
-          "arms": true,
-          "leg0": true,
-          "leg1": true
-        }
+        { "helmet": "v.profession_index != 2 && v.profession_index != 1 && v.profession_index != 4 && v.profession_index != 11 && v.profession_index != 9 && v.profession_index != 3 && v.profession_index != 6 && v.profession_index != 5"},
+        { "head": "v.profession_index != 2 && v.profession_index != 1 && v.profession_index != 4 && v.profession_index != 11 && v.profession_index != 9 && v.profession_index != 3 && v.profession_index != 6 && v.profession_index != 5"}
       ],
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.skins[query.variant]" ],
-      "color": {
-        "r": "1.0",
-        "g": "1.0",
-        "b": "1.0",
-        "a": "1.0"
-      }
+      "materials": [{ "*": "material.default" }],
+      "textures": [ "array.biomes[query.mark_variant]" ]
+    },
+    "controller.render.villager_profession": {
+      "arrays": {
+        "textures": {
+          "array.professions": [
+            "texture.unskilled",
+            "texture.farmer",
+            "texture.fisherman",
+            "texture.shepherd",
+            "texture.fletcher",
+            "texture.librarian",
+            "texture.cartographer",
+            "texture.cleric",
+            "texture.armorer",
+            "texture.weapon_smith",
+            "texture.tool_smith",
+            "texture.butcher",
+            "texture.leatherworker",
+            "texture.stonemason",
+            "texture.nitwit"
+          ]
+        }
+      },
+      "rebuild_animation_matrices": true,
+      "geometry": "geometry.profession",
+      "materials": [{ "*": "material.default" }],
+      "textures": [ "array.professions[variable.profession_index]" ]
+    },
+    "controller.render.villager_level": {
+      "arrays": {
+        "textures": {
+          "array.levels": [
+            "texture.level_stone",
+            "texture.level_iron",
+            "texture.level_gold",
+            "texture.level_emerald",
+            "texture.level_diamond"
+          ]
+        }
+      },
+      "rebuild_animation_matrices": true,
+      "geometry": "geometry.level",
+      "part_visibility": [{ "*": "!query.is_baby && variable.profession_index != 0 && variable.profession_index != 14" }],
+      "materials": [{ "*": "material.default" }],
+      "textures": [ "array.levels[variable.level_index]" ]
     }
   }
 }

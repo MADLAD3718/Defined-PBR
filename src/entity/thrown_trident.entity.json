@@ -4,14 +4,11 @@
     "description": {
       "identifier": "minecraft:thrown_trident",
       "textures": {
-        "default": "textures/entity/trident",
+        "default": "textures/entity/thrown_trident",
         "loyalty_rope": "textures/entity/loyalty_rope"
       },
       "scripts": {
         "should_update_bones_and_effects_offscreen": true
-      },
-      "geometry": {
-        "default": "geometry.trident"
       }
     }
   }

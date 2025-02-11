@@ -8,16 +8,6 @@
         "default": "wither_boss",
         "armor": "charged_creeper"
       },
-      "textures": {
-        "default": "textures/entity/wither_boss/wither",
-        "armor_white": "textures/entity/wither_boss/wither_armor_white",
-        "armor_blue": "textures/entity/wither_boss/wither_armor_blue",
-        "invulnerable": "textures/entity/wither_boss/wither_invulnerable"
-      },
-      "geometry": {
-        "default": "geometry.witherBoss",
-        "armor": "geometry.witherBoss.armor.v1.8"
-      },
       "scripts": {
         "pre_animation": [
           "variable.base_scale = 2;",
@@ -31,17 +21,7 @@
           "variable.is_invulnerable = query.invulnerable_ticks > 0.0;",
           "variable.display_normal_skin = (query.invulnerable_ticks <= 0) || ((query.invulnerable_ticks <= 80) && (Math.mod(query.invulnerable_ticks / 5, 2) <= 1));"
         ],
-        "animate": ["move_controller"],
-        "scalex": "variable.scale_xz * variable.base_scale",
-        "scaley": "variable.scale_y * variable.base_scale",
-        "scalez": "variable.scale_xz * variable.base_scale",
         "should_update_bones_and_effects_offscreen": true
-      },
-      "animations": {
-        "scale": "animation.wither_boss.scale",
-        "move": "animation.wither_boss.move",
-        "look_at_target": "animation.wither_boss.look_at_target",
-        "move_controller": "controller.animation.wither_boss.move"
       },
       "spawn_egg": {
 				"texture": "spawn_egg_wither"

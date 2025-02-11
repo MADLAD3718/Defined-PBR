@@ -3,23 +3,12 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:iron_golem",
-      "textures": {
-        "default": "textures/entity/iron_golem/iron_golem",
-        "cracked_high": "textures/entity/iron_golem/cracked_high",
-        "cracked_med": "textures/entity/iron_golem/cracked_medium",
-        "cracked_low": "textures/entity/iron_golem/cracked_low",
-        "cracked_none": "textures/entity/iron_golem/cracked_none"
-      },
-      "geometry": {
-        "default": "geometry.irongolem"
-      },
       "spawn_egg": {
-				"texture": "spawn_egg_iron_golem"
-			},
+        "texture": "spawn_egg_iron_golem"
+      },
       "scripts": {
         "should_update_bones_and_effects_offscreen": true
-      },
-      "render_controllers": [ "controller.render.iron_golem" ]
+      }
     }
   }
 }

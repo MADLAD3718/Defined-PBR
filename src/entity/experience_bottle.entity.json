@@ -3,26 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:xp_bottle",
-      "materials": {
-        "default": "xp_bottle"
-      },
-      "textures": {
-        "default": "textures/items/experience_bottle",
-        "enchanted": "textures/misc/enchanted_item_glint"
-      },
-      "geometry": {
-        "default": "geometry.item_sprite"
-      },
-      "render_controllers": [ "controller.render.experience_bottle" ],
-      "animations": {
-        "flying": "animation.actor.billboard"
-      },
       "scripts": {
-        "animate": [
-          "flying"
-        ],
         "should_update_bones_and_effects_offscreen": true
       }
     }
   }
-} 
+}

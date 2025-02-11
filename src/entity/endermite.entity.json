@@ -3,25 +3,8 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:endermite",
-      "materials": { "default": "endermite" },
-      "textures": {
-        "default": "textures/entity/endermite"
-      },
-      "geometry": {
-        "default": "geometry.endermite"
-      },
       "scripts": {
-        "should_update_bones_and_effects_offscreen": true,
-        "animate": ["move_controller"]
-      },
-      "animations": {
-        "move": "animation.endermite.move",
-        "move_controller": "controller.animation.endermite.move"
-      },
-      "render_controllers": [ "controller.render.endermite" ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 25
+        "should_update_bones_and_effects_offscreen": true
       }
     }
   }

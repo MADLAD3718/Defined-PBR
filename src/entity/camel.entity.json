@@ -3,51 +3,12 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:camel",
-      "materials": {
-        "default": "camel"
-      },
-      "textures": {
-        "default": "textures/entity/camel/camel"
-      },
-      "geometry": {
-        "default": "geometry.camel"
-      },
       "spawn_egg": {
         "texture": "spawn_egg_camel"
       },
       "scripts": {
-        "pre_animation": [
-          "variable.dash_cooldown = (!(variable.last_dash_cooldown ?? true) && query.has_dash_cooldown) ? 2.75 : ( variable.dash_cooldown ?? 0 );",
-          "variable.dash_cooldown = math.max(0, variable.dash_cooldown-query.delta_time);",
-          "variable.dash_cooldown_progress = (2.75 - variable.dash_cooldown) / 2.75;",
-          "variable.last_dash_cooldown = query.has_dash_cooldown;",
-          "variable.moving = query.modified_move_speed > 0.05 || query.vertical_speed > 0.05;",
-          "variable.xTargetRot = math.clamp(query.target_x_rotation, -30, 30);",
-          "variable.xHeadRot = variable.dash_cooldown_progress > 0 ? math.clamp(variable.xTargetRot + (45 * (1 - variable.dash_cooldown_progress)), -25, 70) : variable.xTargetRot;",
-          "variable.yHeadRot = math.clamp(query.target_y_rotation, -30, 30);"
-        ],
         "should_update_bones_and_effects_offscreen": true
-      },
-      "animations": {
-        "moving": "animation.camel.walk",
-        "sit_down": "animation.camel.sit_down",
-        "sitting": "animation.camel.sit",
-        "stand_up": "animation.camel.stand_up",
-        "look_at_player": "animation.camel.look_at_player",
-        "dashing": "animation.camel.dash",
-        "idle": "animation.camel.idle",
-        "general": "controller.animation.camel.general",
-        "idling": "controller.animation.camel.idle",
-        "look_at_player_controller": "controller.animation.camel.look_at_player"
-      },
-      "sound_effects": {
-        "sit_down": "mob.camel.sit",
-        "stand_up": "mob.camel.stand",
-        "dashing": "mob.camel.dash"
-      },
-      "render_controllers": [
-        "controller.render.camel"
-      ]
+      }
     }
   }
 }

@@ -2,9 +2,9 @@
   "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.warden": {
-      "geometry": "Geometry.default",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.default" ],
+      "geometry": "geometry.default",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.default" ],
       "color": {
         "r": 1.0,
         "g": 1.0,
@@ -13,58 +13,52 @@
       }
     },
     "controller.render.warden_spots_1": {
-      "geometry": "Geometry.overlay",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.spots_1" ],
+      "geometry": "geometry.layer",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.spots_1" ],
       "ignore_lighting": true,
-      "color": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
+      "overlay_color": {
+        "r": 0.051,
+        "g": 0.070,
+        "b": 0.090,
+        "a": "math.clamp(1.0 - variable.spots_1_alpha, 0.0, 1.0)"
       }
     },
     "controller.render.warden_spots_2": {
-      "geometry": "Geometry.overlay",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.spots_2" ],
+      "geometry": "geometry.layer",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.spots_2" ],
       "ignore_lighting": true,
-      "color": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
+      "overlay_color": {
+        "r": 0.051,
+        "g": 0.070,
+        "b": 0.090,
+        "a": "math.clamp(1.0 - variable.spots_2_alpha, 0.0, 1.0)"
       }
     },
     "controller.render.warden_tendrils": {
-      "geometry": "Geometry.overlay",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.tendrils" ],
+      "geometry": "geometry.layer",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.tendrils" ],
       "ignore_lighting": true,
-      "color": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "part_visibility": [
-        { "*": "variable.tendrils_alpha"}
-      ]
+      "overlay_color": {
+        "r": 0.051,
+        "g": 0.070,
+        "b": 0.090,
+        "a": "0.8 * (1.0 - variable.tendrils_alpha)"
+      }
     },
     "controller.render.warden_heart": {
-      "geometry": "Geometry.overlay",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.heart" ],
+      "geometry": "geometry.layer",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "texture.heart" ],
       "ignore_lighting": true,
-      "color": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "part_visibility": [
-        { "*": "query.hurt_time > 0 ? 1 : (variable.heart_alpha > 0 ? 1 : 0)"}
-      ]
+      "overlay_color": {
+        "r": 0.051,
+        "g": 0.070,
+        "b": 0.090,
+        "a": "1.0 - (query.hurt_time > 0 ? 0.2 : variable.heart_alpha)"
+      }
     }
   }
 }

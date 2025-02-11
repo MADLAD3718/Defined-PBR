@@ -4,28 +4,21 @@
     "description": {
       "identifier": "minecraft:command_block_minecart",
       "min_engine_version": "1.8.0",
-      "materials": {
-        "default": "minecart"
+      "geometry": {
+        "default": "geometry.minecart.v1.8",
+        "block": "geometry.minecart.command_block"
       },
       "textures": {
-        "default": "textures/entity/command_minecart"
+        "default": "textures/entity/minecart",
+        "block": "textures/entity/minecart/minecart_command_block"
       },
-      "geometry": {
-        "default": "geometry.command_minecart.v1.8"
-      },
-       "scripts": {
-        "pre_animation": [
-          "variable.hurt = query.hurt_time - query.frame_alpha;"
-        ],
-        "animate": [
-          "move"
-        ],
+      "scripts": {
         "should_update_bones_and_effects_offscreen": true
       },
-      "animations": {
-        "move": "animation.minecart.move"
-      },
-      "render_controllers": [ "controller.render.minecart" ]
+      "render_controllers": [
+        "controller.render.minecart",
+        "controller.render.minecart.block"
+      ]
     }
   }
 }

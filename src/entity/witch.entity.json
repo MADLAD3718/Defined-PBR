@@ -4,35 +4,8 @@
     "description": {
       "identifier": "minecraft:witch",
       "min_engine_version": "1.8.0",
-      "materials": {
-        "default": "witch"
-      },
-      "textures": {
-        "default": "textures/entity/witch"
-      },
-      "geometry": {
-        "default": "geometry.villager.witch.v1.8"
-      },
       "scripts": {
-        "animate": [
-          "general_controller",
-          "move_controller"
-        ],
-        "scale": "0.9375",
         "should_update_bones_and_effects_offscreen": true
-      },
-      "animations": {
-        "villager_general": "animation.villager.general",
-        "look_at_target": "animation.common.look_at_target",
-        "move": "animation.villager.move",
-        "general": "animation.witch.general",
-        "general_controller": "controller.animation.witch.general",
-        "move_controller": "controller.animation.villager.move"
-      },
-      "render_controllers": [ "controller.render.witch" ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 17
       }
     }
   }

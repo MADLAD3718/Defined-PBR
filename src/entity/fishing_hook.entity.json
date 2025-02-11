@@ -3,19 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:fishing_hook",
-      "materials": {
-        "default": "fishing_hook"
-      },
-      "textures": {
-        "default": "textures/entity/fishhook"
-      },
       "scripts": {
         "should_update_bones_and_effects_offscreen": true
-      },
-      "geometry": {
-        "default": "geometry.fishing_hook"
-      },
-      "render_controllers": [ "controller.render.fishing_hook" ]
+      }
     }
   }
 }

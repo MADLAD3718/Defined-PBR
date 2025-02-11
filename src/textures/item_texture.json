@@ -28,7 +28,7 @@
       "spawn_egg_strider": {
          "textures": "textures/items/egg_strider"
       },
-      "spawn_egg_glowsquid": {
+      "spawn_egg_glow_squid": {
          "textures": "textures/items/egg_glowsquid"
       },
       "spawn_egg_warden": {

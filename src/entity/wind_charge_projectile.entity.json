@@ -6,16 +6,12 @@
       "materials": {
         "default": "entity_emissive_alpha"
       },
-      "textures": {
-        "default": "textures/entity/wind_charge"
-      },
-      "geometry": {
-        "default": "geometry.wind_charge"
-      },
       "scripts": {
+        "pre_animation": [
+          "variable.w = math.mod(math.floor(q.life_time*60+q.frame_alpha),64);"
+        ],
         "should_update_bones_and_effects_offscreen": true
-      },
-      "render_controllers": [ "controller.render.wind_charge" ]
+      }
     }
   }
 }

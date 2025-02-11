@@ -1,70 +1,71 @@
 {
-	"format_version": "1.8.0",
-	"geometry.snowgolem.v1.8": {
-		"texturewidth": 104,
-		"textureheight": 64,
-		"visible_bounds_width": 2,
-		"visible_bounds_height": 3,
-		"visible_bounds_offset": [0, 1.5, 0],
-		"bones": [
-			{
-				"name": "piece2",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-6, 0, -6], "size": [12, 12, 12], "uv": [0, 36], "inflate": -0.5}
-				]
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.snow_golem.pumpkin",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
 			},
-			{
-				"name": "piece1",
-				"parent": "piece2",
-				"pivot": [0, 11, 0],
-				"cubes": [
-					{"origin": [-5, 11, -5], "size": [10, 10, 10], "uv": [0, 16], "inflate": -0.5}
-				]
-			},
-			{
-				"name": "head",
-				"parent": "piece1",
-				"pivot": [0, 20, 0],
-				"cubes": [
-					{"origin": [-4, 20, -4], "size": [8, 8, 8], "uv": [0, 0], "inflate": -0.5}
-				],
-				"locators": {
-					"lead": [0, 20, 0]
+			"bones": [
+				{
+					"name": "piece2",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "piece1",
+					"parent": "piece2",
+					"pivot": [0, 11, 0]
+				},
+				{
+					"name": "head",
+					"parent": "piece1",
+					"pivot": [0, 20, 0]
+				},
+				{
+					"name": "pumpkin",
+					"parent": "head",
+					"pivot": [0, 25.5, 0],
+					"cubes": [
+						{
+							"origin": [-8, 17.5, -8],
+							"size": [16, 16, 16],
+							"inflate": -3,
+							"uv": {
+								"north": {"uv": [0, 16], "uv_size": [16, 16]},
+								"east": {"uv": [16, 16], "uv_size": [16, 16]},
+								"south": {"uv": [16, 16], "uv_size": [16, 16]},
+								"west": {"uv": [16, 16], "uv_size": [16, 16]},
+								"up": {"uv": [32, 17], "uv_size": [-16, -16]},
+								"down": {"uv": [32, 16], "uv_size": [-16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "overlay",
+					"parent": "head",
+					"pivot": [0, 20, 0],
+					"cubes": [
+						{
+							"origin": [-8, 17.5, -8],
+							"size": [16, 16, 16],
+							"inflate": -2.9,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
 				}
-			},
-			{
-				"name": "head_overlay",
-				"parent": "head",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-0.5, 25, 0], "size": [1, 1, 1], "uv": [0, 62], "inflate": 6}
-				]
-			},
-			{
-				"name": "pumpkin_head",
-				"parent": "head",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-8, 17.5, -8], "size": [16, 16, 16], "uv": [40, 4], "inflate": -3}
-				]
-			},
-			{
-				"name": "arm1",
-				"parent": "piece1",
-				"pivot": [0, 18, 0],
-				"cubes": [
-					{"origin": [1, 20, -1], "size": [12, 2, 2], "uv": [32, 0], "inflate": -0.5}
-				]
-			},
-			{
-				"name": "arm2",
-				"parent": "piece1",
-				"pivot": [0, 18, 0],
-				"cubes": [
-					{"origin": [1, 20, -1], "size": [12, 2, 2], "uv": [32, 0], "inflate": -0.5}
-				]
-			}
-		]
-	}
+			]
+		}
+	]
 }

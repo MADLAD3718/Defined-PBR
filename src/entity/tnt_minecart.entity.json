@@ -4,28 +4,21 @@
     "description": {
       "identifier": "minecraft:tnt_minecart",
       "min_engine_version": "1.8.0",
-      "materials": {
-        "default": "minecart"
+      "geometry": {
+        "default": "geometry.minecart.v1.8",
+        "block": "geometry.minecart.tnt"
       },
       "textures": {
-        "default": "textures/entity/tnt_minecart"
+        "default": "textures/entity/minecart",
+        "block": "textures/entity/minecart/minecart_tnt"
       },
-      "geometry": {
-        "default": "geometry.tnt_minecart.v1.8"
-      },
-       "scripts": {
-        "pre_animation": [
-          "variable.hurt = query.hurt_time - query.frame_alpha;"
-        ],
-        "animate": [
-          "move"
-        ],
+      "scripts": {
         "should_update_bones_and_effects_offscreen": true
       },
-      "animations": {
-        "move": "animation.minecart.move"
-      },
-      "render_controllers": [ "controller.render.minecart" ]
+      "render_controllers": [
+        "controller.render.minecart",
+        "controller.render.minecart.block"
+      ]
     }
   }
 }

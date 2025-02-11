@@ -3,27 +3,11 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:glow_squid",
-      "materials": { "default": "glow_squid" },
-      "textures": {
-        "default": "textures/entity/glow_squid/glow_squid"
-      },
-      "geometry": {
-        "default": "geometry.squid"
-      },
-      "animations": {
-        "move": "animation.squid.move",
-        "squid_rotate": "animation.squid.rotate"
+      "spawn_egg": {
+        "texture": "spawn_egg_glow_squid"
       },
       "scripts": {
-        "animate": [
-          "move",
-          "squid_rotate"
-        ],
         "should_update_bones_and_effects_offscreen": true
-      },
-      "render_controllers": [ "controller.render.glow_squid" ],
-      "spawn_egg": {
-        "texture": "spawn_egg_glowsquid"
       }
     }
   }

@@ -8,28 +8,13 @@
         "default": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/entity/spider/cave_spider",
-        "invisible": "textures/entity/spider/spider_invisible"
-      },
-      "geometry": {
-        "default": "geometry.spider.v1.8"
+        "default": "textures/entity/cave_spider/cave_spider",
+        "invisible": "textures/entity/cave_spider/cave_spider_invisible"
       },
       "scripts": {
-        "scale": "0.7",
-        "should_update_bones_and_effects_offscreen": true,
-        "animate": [ "move" ]
+        "should_update_bones_and_effects_offscreen": true
       },
-      "animations": {
-        "default_leg_pose": "animation.spider.default_leg_pose",
-        "look_at_target": "animation.spider.look_at_target",
-        "walk": "animation.spider.walk",
-        "move": "controller.animation.spider.move"
-      },
-      "render_controllers": [ "controller.render.spider" ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 22
-      }
+      "render_controllers": [ "controller.render.invisible_texture" ]
     }
   }
 }

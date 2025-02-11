@@ -3,26 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:dragon_fireball",
-      "materials": {
-        "default": "fireball"
-      },
-      "textures": {
-        "default": "textures/items/dragon_fireball"
-      },
-      "geometry": {
-        "default": "geometry.fireball"
-      },
-      "animations": {
-        "face_player": "animation.actor.billboard"
-      },
       "scripts": {
-        "scale": "2.0",
-        "animate": [
-          "face_player"
-        ],
         "should_update_bones_and_effects_offscreen": true
-      },
-      "render_controllers": [ "controller.render.fireball" ]
+      }
     }
   }
 }
