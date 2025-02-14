@@ -4,6 +4,10 @@
     "description": {
       "identifier": "minecraft:xp_orb",
       "scripts": {
+        "scale": "0.5",
+        "pre_animation": [
+          "variable.uv = Math.mod(query.texture_frame_index, 4) * 10 + math.round(query.texture_frame_index / 4);"
+        ],
         "should_update_bones_and_effects_offscreen": true
       }
     }
