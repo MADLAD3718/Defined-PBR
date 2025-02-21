@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=This high render distance may cause chunks to disappear while traversing the world.
+
+dpbr.name=Defined PBR
+dpbr.desc=Celebrating the fourth anniversary of the pack, Defined PBR has consitently provided an unparalled physically-based enhancement of the vanilla textures for Minecraft RTX. Designed by MADLAD3718.
+
+

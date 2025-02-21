@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=이렇게 높은 렌더링 거리로 인해 세계를 횡단하는 동안 청크가 사라질 수 있습니다.
+options.raytracing.renderdistance.warning=이 높은 렌더 거리는 세상을 가로 질러 덩어리가 사라질 수 있습니다.
+
+dpbr.name=Defined PBR
+dpbr.desc=팩의 4 주년을 기념하여 정의 된 PBR은 Minecraft RTX에 대한 바닐라 텍스처의 비교할 수없는 물리적 기반 향상을 일치하게 제공했습니다. Madlad3718에 의해 설계되었습니다.
+
+

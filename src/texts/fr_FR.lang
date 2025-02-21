@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=Cette distance de rendu élevée peut entraîner la disparition de morceaux lors de la traversée du monde.
+options.raytracing.renderdistance.warning=Cette distance élevée de rendu peut faire disparaître des morceaux tout en traversant le monde.
+
+dpbr.name=Defined PBR
+dpbr.desc=Célébrant le quatrième anniversaire du pack, le Defined PBR a constitué une amélioration physiquement basée sur les textures de vanille pour Minecraft RTX. Conçu par Madlad3718.
+
+

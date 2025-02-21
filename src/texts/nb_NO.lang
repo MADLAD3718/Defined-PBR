@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Denne høye gjengivelsesavstanden kan føre til at biter forsvinner mens de krysser verden.
+
+dpbr.name=Defined PBR
+dpbr.desc=Defined PBR feirer det fjerde jubileet for flokken, og har konsentent gitt en enestående fysisk basert forbedring av vaniljeteksturene for Minecraft RTX. Designet av Madlad3718.
+
+

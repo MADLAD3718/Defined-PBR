@@ -6,9 +6,17 @@
       "materials": {
         "default": "entity"
       },
+      "geometry": {
+        "default": "geometry.cat",
+        "overlay": "geometry.cat_overlay"
+      },
       "scripts": {
         "should_update_bones_and_effects_offscreen": true
-      }
+      },
+      "render_controllers": [
+        "controller.render.cat",
+        { "controller.render.cat.tame": "query.is_tamed" }
+      ]
     }
   }
 }

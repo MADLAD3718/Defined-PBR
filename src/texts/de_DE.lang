@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=Dieser hohe Renderabstand kann dazu führen, dass beim Durchqueren der Welt Teile verschwinden.
+options.raytracing.renderdistance.warning=Diese hohe Rendernentfernung kann dazu führen, dass Stücke beim Durchqueren der Welt verschwinden.
+
+dpbr.name=Defined PBR
+dpbr.desc=Das Defined PBR feiert das vierte Jahrestag des Pakets und hat eine beispiellose körperbezogene Verbesserung der Vanilletexturen für Minecraft RTX ermöglicht. Entworfen von Madlad3718.
+
+

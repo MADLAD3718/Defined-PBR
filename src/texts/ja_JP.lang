@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=この長いレンダリング距離により、ワールドを横断する際にチャンクが消える可能性があります。
+options.raytracing.renderdistance.warning=この高いレンダリング距離は、世界を横断しながらチャンクが消える可能性があります。
+
+dpbr.name=Defined PBR
+dpbr.desc=パックの4周年を祝うPBRは、Minecraft RTXのバニラテクスチャの物理的に基づいていな強化を同時に提供しました。Madlad3718によって設計されています。
+
+

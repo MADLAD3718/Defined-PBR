@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=Ta duża odległość renderowania może powodować znikanie fragmentów podczas przemierzania świata.
+options.raytracing.renderdistance.warning=Ta wysoka odległość renderowania może spowodować zniknięcie kawałków podczas przemierzania świata.
+
+dpbr.name=Defined PBR
+dpbr.desc=Świętując czwartą rocznicę pakietu, Defined PBR konsekwentnie dostarczył nieparanne fizycznie ulepszenie tekstur waniliowych dla Minecraft RTX. Zaprojektowany przez Madlad3718.
+
+

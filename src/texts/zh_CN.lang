@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=这种高渲染距离可能会导致块在穿越世界时消失。
+options.raytracing.renderdistance.warning=这种高渲染距离可能会导致整个世界时消失。
+
+dpbr.name=Defined PBR
+dpbr.desc=为了庆祝包装的四周年，定义的PBR已汇总了Minecraft RTX的香草纹理的基于物理的基础增强。由Madlad3718设计。
+
+

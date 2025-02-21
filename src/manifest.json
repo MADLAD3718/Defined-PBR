@@ -1,14 +1,14 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Defined PBR - A Vanilla RTX Resource Pack",
-        "description": "An unparalled physically-based enhancement of the vanilla textures! Designed by MADLAD3718.",
+        "name": "dpbr.name",
+        "description": "dpbr.desc",
         "uuid": "b1285f26-4a78-4d81-82d5-f79a62a66a7b",
         "version": [1,21,60],
         "min_engine_version": [1,21,60]
     },
     "modules": [{
-        "description": "An unparalled physically-based enhancement of the vanilla textures! Designed by MADLAD3718.",
+        "description": "dpbr.desc",
         "type": "resources",
         "uuid": "20c40306-e516-41b8-a312-f835b81a6761",
         "version": [1,21,60]

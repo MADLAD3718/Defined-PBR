@@ -531,5 +531,10 @@
          "up" : "sunflower_top"
       },
       "blockshape": "double_plant"
+   },
+   "glow_lichen" : {
+      "sound" : "glow_lichen",
+      "textures" : "glow_lichen",
+      "carried_textures": "glow_lichen_carried"
    }
 }

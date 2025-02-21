@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=Essa alta distância de renderização pode fazer com que pedaços desapareçam enquanto você atravessa o mundo.
+options.raytracing.renderdistance.warning=Essa alta distância de renderização pode fazer com que os pedaços desapareçam enquanto atravessam o mundo.
+
+dpbr.name=Defined PBR
+dpbr.desc=Celebrando o quarto aniversário do pacote, o Defined PBR forneceu um aprimoramento fisicamente incomparado das texturas de baunilha para o Minecraft RTX. Projetado por Madlad3718.
+
+

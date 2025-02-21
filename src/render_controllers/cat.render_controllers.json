@@ -16,7 +16,18 @@
             "Texture.tabby",
             "Texture.all_black",
             "Texture.jellie"
-          ],
+          ]
+        }
+      },
+      "geometry": "geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ],
+      "part_visibility": [ { "nose": "query.variant != 6" } ],
+      "color": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 }
+    },
+    "controller.render.cat.tame": {
+      "arrays": {
+        "textures": {
           "Array.tame": [
             "Texture.white_tame",
             "Texture.black_tame",
@@ -32,16 +43,11 @@
           ]
         }
       },
-      "geometry": "Geometry.default",
+      "geometry": "geometry.overlay",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "query.is_tamed ? Array.tame[query.variant] : Array.skins[query.variant]" ],
+      "textures": [ "Array.tame[query.variant]" ],
       "part_visibility": [ { "nose": "query.variant != 6" } ],
-      "color": {
-        "r": "1.0",
-        "g": "1.0",
-        "b": "1.0",
-        "a": "1.0"
-      }
+      "color": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 }
     }
   }
 }

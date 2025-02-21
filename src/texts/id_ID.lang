@@ -1,2 +1,7 @@
 map.position=%s, %s, %s
-options.raytracing.renderdistance.warning=Jarak render yang tinggi ini dapat menyebabkan bongkahan hilang saat melintasi dunia.
+options.raytracing.renderdistance.warning=Jarak render yang tinggi ini dapat menyebabkan potongan menghilang saat melintasi dunia.
+
+dpbr.name=Defined PBR
+dpbr.desc=Merayakan ulang tahun keempat paket, Defined PBR telah secara bersamaan memberikan peningkatan tekstur vanilla berbasis fisik untuk Minecraft RTX. Dirancang oleh Madlad3718.
+
+

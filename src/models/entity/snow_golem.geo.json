@@ -48,12 +48,12 @@
 				{
 					"name": "overlay",
 					"parent": "head",
-					"pivot": [0, 20, 0],
+					"pivot": [0, 25.5, 0],
 					"cubes": [
 						{
 							"origin": [-8, 17.5, -8],
 							"size": [16, 16, 16],
-							"inflate": -2.9,
+							"inflate": -2,
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [1, 1]},
 								"east": {"uv": [0, 0], "uv_size": [1, 1]},

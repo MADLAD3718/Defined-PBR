@@ -150,6 +150,9 @@
       },
       "tinted_glass_carried": {
          "textures": "textures/blocks/glass_carried/tinted_glass"
+      },
+      "glow_lichen_carried": {
+         "textures": "textures/blocks/glow_lichen_carried"
       }
    }
 }
