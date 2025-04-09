@@ -23,9 +23,6 @@
         ],
         "should_update_bones_and_effects_offscreen": true
       },
-      "spawn_egg": {
-				"texture": "spawn_egg_wither"
-			},
       "render_controllers": [ "controller.render.wither_boss", "controller.render.wither_boss_armor_white", "controller.render.wither_boss_armor_blue" ]
     }
   }

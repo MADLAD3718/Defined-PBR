@@ -438,17 +438,6 @@
       "textures" : "wither_rose",
       "blockshape": "cross_texture"
    },
-   "open_eyeblossom" : {
-      "carried_textures" : "open_eyeblossom_carried",
-      "sound" : "eyeblossom",
-      "textures" : "open_eyeblossom",
-      "blockshape": "cross_texture"
-   },
-   "closed_eyeblossom" : {
-      "sound" : "eyeblossom",
-      "textures" : "closed_eyeblossom",
-      "blockshape": "cross_texture"
-   },
    "torchflower" : {
       "sound" : "grass",
       "textures" : "torchflower",

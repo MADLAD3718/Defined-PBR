@@ -7,9 +7,6 @@
         "default": "geometry.warden",
         "layer": "geometry.warden_layer"
       },
-      "spawn_egg": {
-        "texture": "spawn_egg_warden"
-      },
       "scripts": {
         "should_update_bones_and_effects_offscreen": true
       }
