@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Questa alta distanza di rendering può far scomparire i blocchi mentre attraversano il mondo.
-
-dpbr.name=Defined PBR
-dpbr.desc=Celebrando il quarto anniversario del branco, Defined PBR ha fornito un miglioramento fisicamente impareggiabile delle trame alla vaniglia per Minecraft RTX. Progettato da Madlad3718.
-
-

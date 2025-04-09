@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Deze hoge renderafstand kan ertoe leiden dat brokken verdwijnen terwijl ze de wereld doorkruisen.
-
-dpbr.name=Defined PBR
-dpbr.desc=Door de vierde verjaardag van het peloton te vieren, heeft Defined PBR consequent een ongeëvenaarde fysiek gebaseerde verbetering van de vanille-texturen voor Minecraft RTX opgeleverd. Ontworpen door Madlad3718.
-
-

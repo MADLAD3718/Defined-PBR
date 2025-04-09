@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Detta höga renderavstånd kan leda till att bitar försvinner när de korsar världen.
-
-dpbr.name=Defined PBR
-dpbr.desc=Defined PBR har firat det fjärde årsdagen av förpackningen och har gett en oöverträffad fysiskt baserad förbättring av vaniljstrukturerna för Minecraft RTX. Designad av Madlad3718.
-
-

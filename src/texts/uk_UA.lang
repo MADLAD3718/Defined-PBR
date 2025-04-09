@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Ця висока відстань візуалізації може призвести до зникнення шматочків під час проходження світу.
-
-dpbr.name=Defined PBR
-dpbr.desc=Святкуючи четверту річницю пакету, Defined PBR з урахуванням безпрецедентного фізично посилення ванілі текстури для Minecraft RTX. Розроблений Madlad3718.
-
-

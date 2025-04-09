@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Ez a magas megjelenítési távolság miatt a darabok eltűnhetnek, miközben áthaladnak a világon.
-
-dpbr.name=Defined PBR
-dpbr.desc=A csomag negyedik évfordulójának ünneplésével a Defined PBR konjektív módon párhuzamosan fizikailag alapú javítást nyújtott a Minecraft RTX-hez. Madlad3718 tervezte.
-
-

@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Bu yüksek işleme mesafesi, dünyayı geçerken parçaların kaybolmasına neden olabilir.
-
-dpbr.name=Defined PBR
-dpbr.desc=Paketin dördüncü yıldönümünü kutlayan Defined PBR, Minecraft RTX için vanilya dokularının eşsiz fiziksel tabanlı bir geliştirmesini sağlamıştır. Madlad3718 tarafından tasarlandı.
-
-

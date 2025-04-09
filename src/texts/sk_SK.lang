@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Táto vysoká vzdialenosť vykresľovania môže spôsobiť, že kúsky zmiznú pri prechode po svete.
-
-dpbr.name=Defined PBR
-dpbr.desc=Defined PBR, ktorý oslavuje štvrté výročie balíka, poskytla nepriepustné fyzicky založené vylepšenie vanilkových textúr pre Minecraft RTX. Navrhnuté Madlad3718.
-
-

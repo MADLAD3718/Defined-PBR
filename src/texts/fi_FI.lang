@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Tämä korkea renderöintietäisyys voi aiheuttaa paloja katoamisen kulkeessaan maailmaa.
-
-dpbr.name=Defined PBR
-dpbr.desc=Pakkauksen neljännen vuosipäivän juhlimiseksi Defined PBR on toimittanut Minecraft RTX: n vaniljakuvioiden fyysisen fyysisen parannuksen. Suunnittelija Madlad3718.
-
-

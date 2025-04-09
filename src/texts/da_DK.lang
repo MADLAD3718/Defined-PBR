@@ -1,7 +1,2 @@
 map.position=%s, %s, %s
 options.raytracing.renderdistance.warning=Denne afstand med høj render kan få bidder til at forsvinde, mens du krydser verden.
-
-dpbr.name=Defined PBR
-dpbr.desc=Defined PBR, der fejrer det fjerde jubilæum for pakken, har i overensstemmelse med en uovertruffen fysisk baseret forbedring af vaniljesteksturerne til Minecraft RTX. Designet af Madlad3718.
-
-
