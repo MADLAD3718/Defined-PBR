@@ -3,5 +3,17 @@
     "flipbook_texture": "textures/blocks/firefly_bush",
     "atlas_tile": "firefly_bush",
     "ticks_per_frame": 3
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_still_grey",
+    "atlas_tile": "still_water_grey",
+    "ticks_per_frame": 2,
+    "blend_frames": true
+  },
+  {
+    "flipbook_texture": "textures/blocks/water_flow_grey",
+    "atlas_tile": "flowing_water_grey",
+    "replicate": 2,
+    "blend_frames": true
   }
 ]

@@ -578,5 +578,15 @@
          "west" : "kelp_top_bulb"
       },
       "blockshape": "cross_texture"
+   },
+   "beetroot" : {
+      "sound" : "wood",
+      "textures" : "beetroot",
+      "blockshape": "rows"
+   },
+   "potatoes" : {
+      "sound" : "grass",
+      "textures" : "potatoes",
+      "blockshape": "rows"
    }
 }
