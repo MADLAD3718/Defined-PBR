@@ -2,6 +2,6 @@
 	"format_version": "1.16.100",
 	"minecraft:texture_set": {
 		"color": "lava_still",
-		"metalness_emissive_roughness": [0, 65, 179]
+		"metalness_emissive_roughness": [0, 32, 179]
 	}
 }

@@ -588,5 +588,10 @@
       "sound" : "grass",
       "textures" : "potatoes",
       "blockshape": "rows"
+   },
+   "reeds" : {
+      "sound" : "grass",
+      "textures" : "reeds",
+      "blockshape": "cross_texture"
    }
 }
